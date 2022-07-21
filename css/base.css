@@ -1,0 +1,547 @@
+body {
+  background-color: #413c58;
+  font-size: 18px;
+  color: #444;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  min-width: 400px;
+  margin: 0 auto;
+}
+.top_header {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+}
+
+.logo {
+  padding: 10px;
+  margin: 5px;
+  width: 120px;
+  height: auto;
+}
+
+header {
+  display: block;
+  background-color: #a3c4bc;
+  margin: 0 auto;
+  border-style: solid;
+  color: 000000;
+  justify-content: space-between;
+  min-width: 400px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 0.5rem;
+  justify-content: space-between;
+}
+
+hr.rounded {
+  border-bottom: 3px solid black;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  word-spacing: 10px;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 0.2em 0.2em 0.3em black;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  word-spacing: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  word-spacing: 10px;
+}
+
+p {
+  font-size: 18px;
+  padding: 10px;
+}
+
+main {
+  display: block;
+  border: solid;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(87, 227, 220);
+  min-width: 400px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+nav {
+  line-height: 1rem;
+  font-size: 1rem;
+  background-color: #7798ab;
+  margin: 0 auto;
+  padding: 10px;
+  margin: 10px;
+  color: #f2e7c9;
+  border-radius: 50px;
+}
+
+nav ul {
+  display: block;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+
+nav {
+  background-color: #eee;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+.central {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #c3cbc5;
+  color: #000000;
+  margin: 1rem auto;
+  padding: 1rem;
+  min-width: 360px;
+}
+
+.hero {
+  margin: 5px;
+  width: 100%;
+}
+
+img {
+  width: 98%;
+}
+.event {
+  padding: 10px;
+  margin: 5px;
+  border: solid;
+  background-color: rgb(87, 227, 220);
+}
+
+
+.weather {
+  margin: 5px;
+  border: solid;
+  background-color: rgb(87, 227, 220);
+}
+#weather_icon {
+  max-width: 80px;
+  margin: 0 auto;
+}
+
+
+
+.today {
+  padding: 1px;
+  margin: 5px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(87, 227, 220);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+footer {
+  display: grid;
+  font-family: "Open Sans", sans-serif;
+  background-color: #a3c4bc;
+  border-style: solid;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.footer_data {
+  font-size: 0.9rem;
+  margin-top: -10px;
+}
+.footer_bottom {
+  border-top: solid 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -10px;
+  font-size: 0.8rem;
+}
+
+
+.action {
+  opacity: 0.9;
+  margin: 1em 2em;
+  text-align: center;
+  margin-top: -150px;
+  margin-left: -200px;
+  padding: 50px;
+  position: relative;
+}
+
+.action button {
+  line-height: 1em;
+  width: 10em;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.services div {
+  border: 1px solid #32292f;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 10px rgb(54, 54, 54);
+  padding: 10px;
+}
+
+.services-title {
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+.services-title p {
+  padding: 20px;
+}
+
+.services p {
+  padding: 10px;
+}
+
+/***********************RESERVATION PAGE**********************/
+
+form fieldset {
+  margin: 10px;
+  border: 1px solid #32292f;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 10px #363636;
+}
+
+form legend {
+  color: #32292f;
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 22px;
+  background-color: #faf2d6;
+  border: 1px solid;
+}
+
+form label.top,
+form div {
+  display: block;
+  color: #32292f;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #32292f;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  width: 80%;
+  max-width: 40rem;
+  background-color: #f2f2f2;
+}
+
+form label.sbs {
+  display: block;
+  padding: 10px;
+  color: #32292f;
+  font-size: 20px;
+}
+
+form button.send,
+.sndc {
+  border: 1px solid #32292f;
+  background-color: #355f5f;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 10px;
+  margin: 1.5rem 0 2rem 0%;
+  width: 100%;
+  max-width: 45rem;
+  font-size: 100%;
+  box-shadow: 3px 3px 10px rgb(1, 1, 1);
+  cursor: pointer;
+}
+
+form label.top input:required {
+  border-left: rgb(0, 0, 0) solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: rgb(82, 157, 82) solid 6px;
+}
+
+form section {
+  padding: 10px;
+}
+
+form textarea {
+  width: 100%;
+  max-width: 45rem;
+  height: 10rem;
+  max-width: 45rem;
+  background-color: #f2f2f2;
+  border: 1px solid #32292f;
+}
+
+#reservation {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.roominfo {
+  border: 1px solid #32292f;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+.roominfo h2 {
+  padding: 10px;
+  margin: 10px;
+  background-color: #355f5f90;
+}
+
+.infobox {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #32292f;
+  box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+
+#rooms h2 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px 10px 20px 10px;
+  background-color: #355f5f90;
+}
+
+/***********************SERVICE PAGE**********************/
+
+.services {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services h2 {
+  padding: 10px;
+  margin: 10px;
+  background-color: #355f5f90;
+  border: transparent;
+}
+
+
+.pics {
+  border: 2px solid black;
+  max-width: 800px;
+  border-radius: 0 25px 0 25px;
+}
+
+.discover7 p {
+  padding: 10px;
+}
+
+img[data-src] {
+  filter: blur(0.4em);
+}
+
+.photo-gal {
+  padding: 10px;
+  margin: 10px 10px 20px 10px;
+  text-align: center;
+}
+
+/********TEMPLE PAGE******/
+
+#directorytitle {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.gridListBtns {
+  text-align: center;
+}
+
+#grid,
+#list {
+  padding: 15px 40px;
+  margin: 10px;
+  background: linear-gradient(
+    0.25turn,
+    #b1d3d3,
+    #faf2d6,
+    #ffffff,
+    #faf2d6,
+    #b1d3d3
+  );
+  border: 1px solid #32292f;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px rgb(54, 54, 54);
+}
+
+.groups div {
+  background-color: #ffffff;
+  border: 1px solid #32292f;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px rgb(54, 54, 54);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  min-width: 300px;
+  font-size: 16px;
+}
+
+.groups img {
+  border: none;
+  box-shadow: none;
+  width: 100px;
+}
+
+.groups h2 {
+  color: #000000;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+}
+
+/********* List Styling************/
+div.groups.list {
+  display: grid;
+  min-width: 592px;
+}
+
+.list div {
+  padding: 15px;
+  margin: 10px;
+  min-width: 592px;
+}
+
+.list div img {
+  display: none;
+}
+.list div p {
+  font-size: 0.5rem;
+}
+
+/********* Grid Styling************/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid div {
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+/********************CONTACT PAGE**********************/
+
+.contact {
+  display: grid;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  max-width: 800px;
+  min-width: 400px;
+  line-height: normal;
+}
+
+.mem-info {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.contact-grid {
+  display: grid;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #32292f;
+  box-shadow: 3px 3px 10px #363636;
+  line-height: normal;
+}
+
+.contact-grid h2 {
+  padding: 10px;
+  background-color: #355f5f90;
+}

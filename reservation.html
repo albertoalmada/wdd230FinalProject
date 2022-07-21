@@ -40,7 +40,7 @@
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="firstNav">
-          <li class="active">
+          <li>
             <a href="index.html">Home</a>
           </li>
           <li>
@@ -49,7 +49,7 @@
           <li>
             <a href="services.html">Services</a>
           </li>
-          <li>
+          <li class="active">
             <a href="reservation.html">Reservations</a>
           </li>
           <li>
@@ -58,41 +58,72 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <div id="reservation">
+        <h1>Reservation Page</h1>
+      </div>
+      <div id="reservation_page">
+        <form method="get" action="thankyou.html">
+          <fieldset>
+            <label class="top"
+              >Name <input type="text" name="name" required
+            /></label>
 
-    <main class="central">
-      <div class="hero">
-        <img src="images/bountiful-temple.jpg" alt="bountiful temple" />
-        <div class="action">
-          <form action="reservation.html">
-            <button>Make Your Reservation</button>
-          </form>
-        </div>
-        <p></p>
+            <label class="top"
+              >E-mail
+              <input
+                type="email"
+                name="email"
+                placeholder="youremail@gmail.com"
+                required
+            /></label>
+            <label class="top"
+              >Cell Phone Number <input type="tel" name="phone" required
+            /></label>
+            <label class="top"
+            >State <input type="text" name="state" required
+          /></label>
+          <label class="top"
+            >Country <input type="text" name="country" required
+          /></label>
+          <label class="top"
+            >Rooms <input type="number" name="rooms" min="1" max="3" required
+          /></label>
+          <label class="top"
+            >Check-in <input type="date" name="check-in" required
+          /></label>
+          <label class="top"
+            >Check-out <input type="date" name="check-out" required
+          /></label>
+          <p>* all fiels are required</p>
+
+            <button class="send" type="submit" value="submit">Book</button>
+          </fieldset>
+        </form>
+
+          <div>
+            <div id="rooms">
+              <h2>Rooms</h2>
+            
+              <div class="roominfo">
+                <div class="infobox">
+                  <h2>Bountiful Room</h2>
+                  <img src="images/room_1.jpg" alt="bountiful room">
+                </div>
+            
+              
+                <div class="infobox">
+                  <h2>Salt Lake Room</h2>
+                  <img src="images/room_2.jpg" alt="Salt Lake Room">
+                </div>
+                          
+              <div class="infobox">
+                <h2>Beehive Room</h2>
+                <img src="images/room_3.jpg" alt="Beehive Room">
+              </div>
+            </div>
+         </div>
       </div>
-      <div class="event">
-        <p>
-          Welcome to Bountiful Inn & Suites. The best place to stay when you are
-          visiting the Bountiful Temple.
-        </p>
-      </div>
-      <div class="weather">
-        <p>Weather</p>
-        <div>
-          <p><span id="currtemp"></span>&#176;F</p>
-          <figure>
-            <span id="iconsrc"></span>
-            <img
-              src="https://openweathermap.org/img/w/"
-              alt="Weather Icon Picture"
-              id="weather_icon"
-            />
-            <hr />
-            <figcaption></figcaption>
-          </figure>
-          <p>Wind Speed: <span id="windspeed"></span> mph</p>
-          <hr />
-          <p>Wind Chill: <span id="windchill"></span></p>
-        </div>
       </div>
     </main>
     <div class="today"></div>
@@ -110,15 +141,10 @@
         ><br />contact@templeinnsuites.com<br />+ 1 (202) 123-4567
       </p>
       <p class="footer_bottom">
-        &copy; <span id="year"></span> <span id="lastUpdate"></span> |
-        <a target="_blank" href="http://www.openweathermap.org"
-          >openweathermap.org</a
-        >
+        &copy; <span id="year"></span> <span id="lastUpdate"></span>
       </p>
     </footer>
-
     <script src="js/date.js"></script>
-    <script src="js/localStorage.js" defer></script>
-    <script src="js/windchill.js"></script>
+
   </body>
 </html>

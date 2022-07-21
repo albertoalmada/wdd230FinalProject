@@ -40,13 +40,13 @@
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="firstNav">
-          <li class="active">
+          <li>
             <a href="index.html">Home</a>
           </li>
           <li>
             <a href="temple.html">Temple</a>
           </li>
-          <li>
+          <li class="active">
             <a href="services.html">Services</a>
           </li>
           <li>
@@ -58,42 +58,83 @@
         </ul>
       </nav>
     </header>
+    <main class="services-main">
+      <div class="services-title">
+        <h1>Services Informations</h1>
+      </div>
 
-    <main class="central">
-      <div class="hero">
-        <img src="images/bountiful-temple.jpg" alt="bountiful temple" />
-        <div class="action">
-          <form action="reservation.html">
-            <button>Make Your Reservation</button>
-          </form>
-        </div>
-        <p></p>
-      </div>
-      <div class="event">
-        <p>
-          Welcome to Bountiful Inn & Suites. The best place to stay when you are
-          visiting the Bountiful Temple.
-        </p>
-      </div>
-      <div class="weather">
-        <p>Weather</p>
+      <section class="services">
         <div>
-          <p><span id="currtemp"></span>&#176;F</p>
-          <figure>
-            <span id="iconsrc"></span>
-            <img
-              src="https://openweathermap.org/img/w/"
-              alt="Weather Icon Picture"
-              id="weather_icon"
-            />
-            <hr />
-            <figcaption></figcaption>
-          </figure>
-          <p>Wind Speed: <span id="windspeed"></span> mph</p>
-          <hr />
-          <p>Wind Chill: <span id="windchill"></span></p>
+          <h2>Weddings</h2>
+          <br />
+          <p>
+            Here, you found the best way to celebrate our wedding or aniversary.
+            We have special conditions to offer the best celebration.<br />
+          </p>
+          <br />
         </div>
-      </div>
+        <div>
+          <h2>Food & Beverage</h2>
+          <br />
+          <p>
+            We intend to offer the best experience in food & beverage, a menu
+            with non-alcoholic beverages are avaible, also an expertise cousine
+            is avaiable all-day long. Enjoy!
+            <br />
+          </p>
+          <br />
+        </div>
+        <div>
+          <h2>Infant Care & Recreation</h2>
+          <br />
+          <p>No cost infant care & recreation activities.<br /></p>
+          <br />
+        </div>
+        <div>
+          <h2>Full-Time Missionary</h2>
+          <br />
+          <p>
+            Are you Full-Time Missionary? Way from home? We have special rates
+            for long-term permanecy. Here is your home, away from home. Please
+            <a href="contact.html">contact us.</a><br />
+          </p>
+          <br />
+        </div>
+
+        <div class="photo_gallery">
+          <h2 class="photo-gal">Photo Gallery</h2>
+          <div class="border">
+            <h2>Wedding</h2>
+            <img class="pics" src="images/wedding.jpg" alt="wedding pic" />
+            <p>An unfforgivable wedding</p>
+          </div>
+          <div class="border">
+            <h2>Food & Beverage</h2>
+            <img class="pics" src="images/buffet.jpg" alt="buffet pic" />
+            <p>A unique food & beverage experience</p>
+          </div>
+
+          <div class="border">
+            <h2>Indoor Pool</h2>
+            <img
+              class="pics"
+              src="images/indoor_pool.jpg"
+              alt="Minersville Lake & Golf Resort"
+            />
+            <p>Indoor pool avaiable</p>
+          </div>
+
+          <div class="border bottom">
+            <h2>Local Storage</h2>
+            <p>
+              <span>Number of Visits to Page: </span
+              ><span class="discovervisits"></span>
+            </p>
+            <hr />
+            <p>Days since last visit: <span class="discoverlasthere"></span></p>
+          </div>
+        </div>
+      </section>
     </main>
     <div class="today"></div>
 
@@ -110,15 +151,10 @@
         ><br />contact@templeinnsuites.com<br />+ 1 (202) 123-4567
       </p>
       <p class="footer_bottom">
-        &copy; <span id="year"></span> <span id="lastUpdate"></span> |
-        <a target="_blank" href="http://www.openweathermap.org"
-          >openweathermap.org</a
-        >
+        &copy; <span id="year"></span> <span id="lastUpdate"></span>
       </p>
     </footer>
-
     <script src="js/date.js"></script>
     <script src="js/localStorage.js" defer></script>
-    <script src="js/windchill.js"></script>
   </body>
 </html>

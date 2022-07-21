@@ -1,0 +1,28 @@
+{
+  "directory": [
+    {
+      "picture": "bountiful_temple_lds.jpg",
+      "templeName": "Bountiful Temple",
+      "address": "640 S Bountiful Blvd, Bountiful, UT 84010",
+      "phoneNumber": "1 (801)-296-2100"
+    },
+    {
+      "picture": "ogden_utah_temple.png",
+      "templeName": "Ogden Temple",
+      "address": "350 22nd St, Ogden, UT 84401",
+      "phoneNumber": "1 (801) 621-6880"
+    },
+    {
+      "picture": "brigham_city_temple_lds.jpg",
+      "templeName": "Brigham City Temple",
+      "address": "250 S Main St, Brigham City, UT 84302",
+      "phoneNumber": "1 (435) 695-2170"
+    },
+    {
+      "picture": "draper_utah_temple.jpg",
+      "templeName": "Draper Utah Temple",
+      "address": "14065 Canyn Vista Ln, Drapert, UT 84020",
+      "phoneNumber": "1 (801) 576-4240"
+    }      
+  ]
+}

@@ -1,0 +1,79 @@
+@media only screen and (min-width: 1100px) {
+  nav button {
+    display: none;
+  }
+  nav ul#firstNav {
+    display: flex;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .central {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #c3cbc5;
+    color: #000000;
+    margin: 1rem auto;
+    padding: 1rem;
+    min-width: 400px;
+    max-width: 800px;
+  }
+
+  .hero {
+    margin: 5px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+  }
+
+  
+
+  .event {
+    margin: 5px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    border: solid;
+  }
+
+  .weather {
+    margin: 5px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    border: solid;
+  }
+  /
+
+  /******form styling*******/
+  form label.sbs {
+    padding: 0.4rem 0;
+  }
+
+  
+  div.groups {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /****List Styling*****/
+
+  /****Grid Styling*****/
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  div.groups.grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /******************CONTACT PAGE *******************/
+  .contact-grid {
+    margin: 20px 250px;
+  }
+}
